@@ -11,11 +11,9 @@ import { useState } from 'react'
 
 const Login = () => {
 
-  let [error,setError] = useState("")
-
   const [credentials, setCredentials] = useState({
-    email:undefined,
-    password:undefined
+    email: "",
+    password: "",
 })
 
 const handleClick = e => {
